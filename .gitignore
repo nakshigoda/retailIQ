@@ -1,0 +1,59 @@
+# =====================================
+# RetailIQ - Git Ignore Configuration
+# =====================================
+
+# Byte-compiled / Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables, Secrets & Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+*.secret
+credentials.json
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs and Temporary Files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Unnecessary Generated Files & Large Datasets (>10 MB)
+# Generated artifact produced by python/02_data_cleaning.py (~13.7 MB)
+data/cleaned_superstore.csv
+
+# Raw tabular dataset (~12.0 MB) excluded to prevent Git history bloat
+data/Global_Superstore22.csv
