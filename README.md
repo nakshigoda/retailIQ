@@ -363,7 +363,6 @@ python 02_data_cleaning.py
 ## Author
 
 **Nakshi Goda**  
-- **Role**: Data Analyst / Business Intelligence Developer  
 - **Focus**: SQL Analytics, Python ETL Pipelines, Power BI Modeling & Visualization  
-- **GitHub**: [@nakshigoda](https://github.com/) *(or your GitHub profile URL)*  
+- **GitHub**: [@nakshigoda](https://github.com/) 
 - **LinkedIn**: [Connect on LinkedIn](https://www.linkedin.com/)
